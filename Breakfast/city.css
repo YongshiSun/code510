@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+  background: url(http://hdwpics.com/images/261BD53E337B/Pink-Stripes-Line-Pattern.jpg);
+  color: black;
+  text-align: center;
+}
+li{
+  display: inline;
+  padding: 15px;
+}
+ul{
+  background:url(http://hdwpics.com/images/2B7B9E34AB0E/Light-Pink-Stripe-Horizontal-Pattern.jpg);
+  padding: 5px;
+}
+a{
+  color: #588DD2;
+}
+body{
+  margin: 0px;
+  background-color: #5E4B4D;
+}
+
+p{
+  text-align: center;
+}
+.button {
+     
+    /*Step 2: Basic Button Styles*/
+    display: block;
+    height: 50px;
+    width: 250px;
+    background: url(http://hdwpics.com/images/261BD53E337B/Pink-Stripes-Line-Pattern.jpg);
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    margin-bottom:10px; 
+     
+    /*Step 3: Text Styles*/
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font: bold 1.5em/50px Georgia, Arial, Helvetica, Geneva, sans-serif;
+    
+     /*Step 4: Fancy CSS3 Styles*/
+    background: linear-gradient(top, #34696f, #2f5f63);
+    border-radius: 50px;
+    box-shadow: 0 2px 0 black;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+ 
+/*Step 3: Link Styling*/
+a.button {
+    text-decoration: none;
+    
+}
+/*.top-space {
+  margin-left: 1150px;
+  }*/
+
+.one {
+ margin-left: 1050px;
+}
+.two {
+   margin-left: 1000px;
+}
+.three{
+  margin-left: 950px;
+}
+.four{
+  margin-left: 900px;
+}
+.five{
+  margin-left: 850px;
+}
+.six{
+  margin-left: 800px;
+}
+.seven{
+  /*font-size: 1em;*/
+  margin-left: 750px;
+}
+.eight{
+  /*font-size: 90%;*/
+  margin-left: 700px;
+}
+.border{
+}

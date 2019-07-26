@@ -1,0 +1,16 @@
+.tweet {
+	padding: 10px;
+	border: solid 1px #CCC;
+	border-radius: 4px;
+	margin: 5px 0px;
+	background: #fff;
+}
+
+.tweet .profile {
+    float: left;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.tweet .media {
+	width: 100%;
+}

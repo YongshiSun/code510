@@ -1,0 +1,79 @@
+.swag {
+  font-style: normal, #345;
+  font-size: 14px; 
+}
+
+.yongshi {
+  margin-right: 30px;
+}
+.hover:hover {
+  border: solid 1px black;
+    padding: 10px; background-color:white;
+}
+
+.hover {
+  width: 500px;
+    margin: 5px;
+    border: solid 1px #ccc;
+    padding: 10px; background-color:white;
+}
+.jesus {
+  width: 535px;
+  margin-right: 200px;
+ }
+  .jesus:hover {
+    background-color: pink;
+  }
+  .thatguy {
+    width: 500px
+  }
+  .thatguy:hover {
+    border: solid 1px pink;
+  }
+.gary {
+  width: 400px
+}  
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+.2017 {
+  width: 500px;
+  
+}
+
+.img {
+  width:500px;
+}

@@ -1,0 +1,86 @@
+h1{
+  text-align: center;
+  font-size: 20px;
+}
+h2{
+  font-size: 50px;
+  color: #0B610B;
+}
+li{
+  color: #0B610B;
+}
+h3{
+  font-size: 30px;
+  color: #0B610B;
+  
+}
+.coaches{
+  
+}
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 8em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+}
+.link--kukuri {
+	text-transform: uppercase;
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 0.75;
+	color: #424242;
+}
+
+.link--kukuri:hover {
+	color: #424242;
+}
+
+.link--kukuri::after {
+	content: '';
+	position: absolute;gi
+	height: 16px;
+	width: 100%;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	background: #F9F9F9;
+	transform: translate3d(-100%,0,0);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kukuri:hover::after {
+	transform: translate3d(100%,0,0);
+}
+
+.link--kukuri::before {
+	content: attr(data-letters);
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	color: #fc2b6a;
+	white-space: nowrap;
+	width: 0%;
+	transition: width 0.4s 0.3s;
+}
+
+.link--kukuri:hover::before {
+	width: 100%;
+}
+h4{
+	
+}
+ul{
+	background-image: url("http://www.radioviva.fm.br/images/backgrounds/bg-squares-3d.jpg")
+
+}
+h5{
+	font-size: 30px;
+	color:white;
+}
+a{
+	margin-right: 30px;
+}

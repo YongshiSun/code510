@@ -1,0 +1,138 @@
+body {
+	margin: 0px;
+	font-family: 'Arial';
+}
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: #5CA4A9;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation a:hover {
+    background: #9BC1BC;
+}
+
+.navigation li.active {
+    background: #9BC1BC;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+	background: tomato;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+.flex-item img {
+	width: 140px;
+}
+
+@media screen and (max-width: 800px) {
+	.navigation {
+		justify-content: space-around;
+		
+	}
+	.flex-item {
+	background: #FF005A;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+body {
+  background: #504746;
+}
+}
+@media screen and (max-width: 600px) {
+    .main-container {
+    	margin-top: 300px;
+    	margin-bottom: 300px;
+    }
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation li.active {
+	    background: #9BC1BC;
+	    text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    }
+    
+    h1 {
+    	display: block;
+        margin: 0px;
+        text-align: center;
+        left: 0px;
+        width: 100%;
+        padding: 10px;
+        background: gray;
+        color: white;
+        position: fixed;
+        bottom: 0px;
+        
+    }
+  body {
+    overflow: hidden;
+  }
+}
+

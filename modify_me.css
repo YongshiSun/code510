@@ -1,0 +1,8 @@
+body {
+    background-image: url('http://fc05.deviantart.net/fs46/i/2009/216/5/b/Gothic_Texture_by_AshenSorrow.jpg');
+   background-size: 800px 600px;
+}
+.div-with-bg
+{
+    background: color url(http://hd4desktop.com/images/b/1920x1080_hatsune_miku-498047.jpg) others;
+}

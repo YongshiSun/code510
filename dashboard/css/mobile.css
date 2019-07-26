@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen  and (min-width:480px){
+
+.col1,
+.col3 {
+display: inline-block;
+width: 33.3333333333%;
+margin-right: -5px;
+height: 600px;
+vertical-align: top;
+border: solid;
+border-color: #F0FFF0;
+    
+
+}
+.col2 {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  border: solid;
+  border-color: #FF4500;
+}
+
+
+}

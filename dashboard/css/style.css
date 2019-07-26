@@ -1,0 +1,218 @@
+@charset "UTF-8";
+.style
+	
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 990px; }
+.clear { clear: both; }
+
+
+/*COLUMNS
+=================================*/
+
+.col1 {
+  background-color: #5286ab;
+  align-content: center;
+  text-align: center;
+  height: 167px;
+  overflow-y: auto;
+}
+
+.col2 {
+  background-color: #ffa500;
+  align-content: center;
+  text-align: center;
+  height: 167px;
+  overflow-y: auto;
+}
+
+.col3 {
+  background-color: #54abee;
+  align-content: center;
+  text-align: center;
+  height: 167px;
+  overflow-y: auto;
+}
+
+.col1,
+.col2,
+.col3 {
+	padding-top: 30px;
+    padding-bottom: 60px;
+  	position: relative;
+  	padding-left: 28px;
+  	padding-right: 28px;
+
+}
+
+/*=================================*/
+
+body, head, header{
+	font-family:'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#about {
+	color: #424242;
+	margin: 0;
+	background-size: cover;
+	width: 100%;
+}
+
+
+#top1 {
+	background-repeat: no-repeat;
+	background-position: 50% 0 no-repeat fixed;
+	background-attachment: fixed;
+	color: #f7f8f9;
+	height: 500px;
+	margin: 0;
+	background-size: cover;
+	padding-top: 100px;
+	text-align: center;
+	/*background-image: url(http://i.imgur.com/2EKkx2K.jpg);*/
+	/*background-image: url(http://openwalls.com/image/13193/pink_background_1440x900.jpg);*/
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 250%;
+	text-align: center;
+	color: #424242;
+	padding: 0;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.marginTop25{
+	margin-top:25px;
+}
+
+.title{
+	margin-top:50px;
+}
+ 
+h2 {
+	font-weight: 300;
+	font-size: 16pt;
+	text-align: center;
+	color: #424242;
+	margin-top: 30px;
+}
+
+.line{
+	margin-bottom: 40px;
+	width: 120px;
+	height: 4px;
+	background-color: #424242;
+	display: block;
+	align-content: center;
+}
+	
+.avatar-lg {
+	width: 163px;
+	height: 163px;
+	border-radius: 50%;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+
+.container {
+	margin: auto !important;
+	max-width: 990px !important;
+	display: block;
+}
+
+.containerFull {
+	margin: auto !important;
+	overflow-x: hidden;
+	display: block;
+}
+
+.col-img {
+	float: left;
+	margin: 50px;
+	width: 550px
+}
+
+.col-overview {
+	float: right;
+	width: 330px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+#logo {
+	float: none;
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+#menu {
+	min-width:457px;
+}
+
+
+#header {
+	height: 74px;
+	background-color: #ffffff;
+	width: 100%;
+	position: fixed;
+	z-index:999;
+}
+
+#copyright {
+	background-color: #f6f6f6;
+	text-align:left;
+	width:3000px;
+	left: 0px;
+	bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+#header {
+  /*background-image: url('../images/bts.png');*/
+  text-align: center;
+  background-color: white;
+}
+.button-clear {
+  
+}
+.memberpic {
+  border: solid; 
+  border-color: white;
+  height: 200px;
+  margin-top: 40px;
+  
+}
+.memberline {
+  margin-bottom: 40px;
+	width: 400px;
+	height: 4px;
+	background-color: #424242;
+	display: block;
+	align-content: center;
+}
+.title {
+  
+}
+h3 {
+  color: #424242;
+	margin: 10px
+}
+body {
+  	background-image: url(http://1-background.com/images/vellum/vellum-pink-seamless-tile3.jpg);
+}

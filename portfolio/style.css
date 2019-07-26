@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+  font-family: 'alittleswag';
+  src: url('KGALittleSwag.ttf') format('truetype');
+}
+h1 {
+  color: #494949;
+  font-family: 'Alex Brush', cursive;
+  font-size: 5em;
+  margin-bottom: 5px;
+}
+h2{
+  color: #72A1E5;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+  margin-top: 0;
+}
+h3{
+  color:#ECD678;
+  font-family: times; 
+}
+h4{
+  color: #494949;
+  font-family: 'Poiret One', cursive;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+body {
+  background-image: url("images/gridbg.jpg");
+}
+img{
+  border: solid 5px;
+  border-color: #72A1E5;
+}
+ul{
+  font-size: 60px;
+  font-family: 'alittleswag',sans-serif;
+  
+}
+ul a{
+  text-decoration: none;
+  color: #F15946;
+}
+.slideleft{
+  margin-left: -15px;
+}
+
+.star {
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    -webkit-transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.star:hover {
+    background-size: 20px;
+}
+

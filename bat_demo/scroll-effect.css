@@ -1,0 +1,25 @@
+body {
+    height: 2000px; /* make the body of the page really tall so we can scroll down really far */
+    margin: 0;
+}
+
+#night-sky {
+    height: 100%; /* make this div take up the whole body */
+    background-color: rgb(0,11,11);
+    background-image: url('http://fc07.deviantart.net/fs70/i/2011/292/4/9/halloween_background_by_hellonlegs-d4dad5i.png'); /* halloween background */
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    overflow: hidden; /* anything that does not fit inside the div will be hidden */
+}
+  img {
+    position: absolute;
+}
+
+#bat1 {
+    padding-top: 500px;  /* start the bat out lower down */
+    padding-left: 800px; /* and way out to the right */
+}
+#witch1 {
+      padding-right: 800px; /* all the way to the left */
+      padding-bottom: 500px; /*starts at top */
+}

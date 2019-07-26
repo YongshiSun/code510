@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<canvas id="myCanvas" resize></canvas>
+<style>
+  #myCanvas {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+body { margin: 0px; }
+</style>
+<script>
+paper.install(window);
+paper.setup('myCanvas');
+var rando = function(start, end) {
+  return Math.random() * (end - start) + start;
+};
+var Bubble = function(x, y, radius, speed) {
+  this.circle;
+  this.x = x;
+  this.y = y;
+  this.radius = radius;
+  this.speed = speed;
+
+  // public method: 
+  this.initialize = function() {
+    this.circle = new paper.Path.Circle({
+      center: new Point(this.x, this.y),
+      radius: this.radius,
+      strokeColor: '#fff',
+      //fillColor: '#fff',
+      //opacity: 0.8,
+      strokeWidth: 1
+    });
+  };
+
+  // public method:
+  this.move = function() {
+      if (this.circle.position.y < 0) {
+        this.circle.position.y = view.size.height;
+      } else {
+        this.circle.position.y += this.speed;
+      }
+    }
+  // call the initialize function when
+  // creating a new Bubble object:
+  this.initialize();
+};
+
+// Create a bunch of random bubbles:
+var bubbles = [], numBubbles = 50;
+for (var i = 0; i < numBubbles; i++) {
+  x = rando(-10, 1300); // a number between -10 and 1,300
+  y = rando(0, 1000);   // a number between 0 and 1,000
+  r = rando(3, 25);     // a number between 1 and 25
+  speed = rando(4, 8);  // a number between 4 and 8
+  bubbles.push(new Bubble(x, y, r, -1*speed));
+}
+view.onFrame = function(event) {
+  for (var i = 0; i < numBubbles; i++) {
+    bubbles[i].move();
+  }
+};
+</script>
