@@ -73,7 +73,8 @@ var init = function () {
 		twitter: 'AWIOlJxOVIbuLirzS0YAEJU2M',
 		soundcloud: '4fe90d925b64e1db68646025e19168c5'
 	}, {
-		redirect_uri: 'http://code510.org/yongshi/dashboard/',
+		redirect_uri: 'https://yongshisun.github.io/code510/',
+		//redirect_uri: 'http://code510.org/yongshi/dashboard/',
 		oauth_proxy: 'https://auth-server.herokuapp.com/proxy'
 	});
 };
