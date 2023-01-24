@@ -76,6 +76,8 @@ div{
 /*changes the color of the tabs when you hover over it with mouse*/
 .tabs a:hover{
   color:darkred;
+  width: 100%;
+  height: 100%;
 }
 
 .star {
@@ -130,12 +132,16 @@ html, body{
 }
 
 .pics{
-  display: inline-block;
-  /*margin: 100px;*/
+  /*display: inline-block;
+  margin: 100px;*/
+  display: inline-table;
   margin-bottom: 100px;
   width: 25%;
   justify-content: space-around;
-  ;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 
 }
 
