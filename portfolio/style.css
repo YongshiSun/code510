@@ -37,13 +37,13 @@ h4{ /* descriptions*/
   margin-bottom: 20px;
 }
 
-/*
+
 body {
-  background-image: url("images/gridbg.jpg");
+  outline: 1px solid red;
 
 }
 
-
+/*
 img{
   border: solid 5px;
   border-color: #72A1E5;
@@ -54,7 +54,7 @@ img{
 ul{
   font-size: 60px;
   font-family: 'alittleswag',sans-serif;
-  
+  padding-inline-end: 40px; /* to accomodate for padding-inline-start: 40px inherited from <center> */
 }
 
 ul a{
@@ -62,11 +62,11 @@ ul a{
   color: #F15946;
 }
 
-/*
+
 div{
-  padding-left: 125px;
-  padding-right: 100px;
-}*/
+  /*padding-left: 125px;
+  padding-right: 100px;*/
+}
 
 /*tabs need .slideleft to look right and nice*/
 .slideleft{
@@ -76,8 +76,23 @@ div{
 /*changes the color of the tabs when you hover over it with mouse*/
 .tabs a:hover{
   color:darkred;
+}
+
+/*figuring out how to prevent the whole tab section from wrapping*/
+.tabs {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .tabs {
+    flex-direction: column;
+  }
 }
 
 .star {
@@ -123,12 +138,20 @@ div{
 }
 
 html, body{
-  width: 100%;
-  height: 100%
-  display: flex;
+  width: auto;
+  height: auto;
+  /*display: flex;*/
   justify-content: center;
-  aligned-items: center;
+  align-items: center;
   background-image: url("images/gridbg.jpg");
+}
+
+html {
+  /* hide scrollbar and prevent scrolling 
+  overflow-x: hidden;*/
+  padding-bottom: 100px;
+  margin:0 auto;
+  outline: 1px solid blue;
 }
 
 .pics{
