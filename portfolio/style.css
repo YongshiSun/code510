@@ -39,7 +39,6 @@ h4{ /* descriptions*/
 
 
 body {
-  outline: 1px solid red;
 
 }
 
@@ -55,7 +54,7 @@ ul{
   font-size: 4.5vw; /* using vw(viewpoint width) to addjust text with screen size */
   font-family: 'alittleswag',sans-serif;
   padding-inline-end: 40px; /* to accomodate for padding-inline-start: 40px inherited from <center> */
-  outline: 1px solid greenyellow;
+  
 }
 
 ul a{
@@ -85,7 +84,7 @@ div{
   display: flex; /*to prevent the whole tab section from wrapping*/
   justify-content: center;
   flex-direction: row;
-  outline: 1px solid blueviolet;
+  
 }
 
 /* Hide short text by default (resolution > 800px) */
@@ -168,7 +167,7 @@ html {
   overflow-x: hidden;*/
   padding-bottom: 100px;
   margin:0 auto;
-  outline: 1px solid blue;
+  
 }
 
 .pics{
