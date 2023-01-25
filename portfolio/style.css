@@ -104,9 +104,11 @@ div{
     justify-content: center;
     flex-direction: column;
   }
-
   ul{
     font-size: 10vw;
+  }
+  .slideleft{
+    margin-left: 0px;
   }
 
 }
