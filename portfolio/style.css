@@ -9,7 +9,7 @@
 h1 {
   color: #494949;
   font-family: 'Alex Brush', cursive;
-  font-size: 5em;
+  font-size: 5vw;
   margin-bottom: 5px;
 }
 
@@ -52,9 +52,10 @@ img{
 
 /*needed for tabs to look nice and correct*/
 ul{
-  font-size: 60px;
+  font-size: 4.5vw; /* using vw(viewpoint width) to addjust text with screen size */
   font-family: 'alittleswag',sans-serif;
   padding-inline-end: 40px; /* to accomodate for padding-inline-start: 40px inherited from <center> */
+  outline: 1px solid greenyellow;
 }
 
 ul a{
@@ -78,21 +79,37 @@ div{
   color:darkred;
 }
 
-/*figuring out how to prevent the whole tab section from wrapping*/
 .tabs {
   width: 100%;
   height: auto;
-  display: flex;
+  display: flex; /*to prevent the whole tab section from wrapping*/
   justify-content: center;
   flex-direction: row;
-  
+  outline: 1px solid blueviolet;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* Hide short text by default (resolution > 800px) */
+.small_tabs { 
+  display: none; 
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout*/
 @media (max-width: 800px) {
+
+  /* When resolution <= 800px, hide long tabs and show stacked tabs */
   .tabs {
+    display: none;
+  }
+  .small_tabs{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
   }
+
+  ul{
+    font-size: 10vw;
+  }
+
 }
 
 .star {
