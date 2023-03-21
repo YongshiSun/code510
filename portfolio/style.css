@@ -113,6 +113,9 @@ div{
   .slideleft{
     margin-left: 0px;
   }
+  html{
+    overflow-x: hidden;
+  }
 
 }
 
