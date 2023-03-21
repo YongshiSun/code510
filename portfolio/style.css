@@ -113,7 +113,7 @@ div{
   .slideleft{
     margin-left: 0px;
   }
-  html{
+  html{ /*no scroll on x axis*/
     overflow-x: hidden;
   }
 
